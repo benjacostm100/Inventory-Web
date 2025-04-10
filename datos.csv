@@ -1,0 +1,16 @@
+categoria,producto,cantidad,precio
+notebooks,macbook air m2,10,1230
+notebooks,macbook pro m4,15,1260
+notebooks,dell xps 13,20,1290
+notebooks,lenovo thinkpad x1,10,1320
+monitores,dell ultrasharp u2720q,15,520
+monitores,lg 27gl850,20,540
+monitores,asus tuf gaming vg27aq,10,560
+teclados,logitech mx keys,20,55
+teclados,corsair k95 rgb,40,60
+teclados,razer blackwidow v3,30,65
+parlantes,bose companion 2,20,70
+parlantes,logitech z623,24,75
+parlantes,edifier r980t,21,80
+celulares,iphone 12,2,400
+celulares,iphone 13,4,500

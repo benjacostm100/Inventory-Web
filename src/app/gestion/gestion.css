@@ -1,0 +1,53 @@
+/* Estilos globales para la página de gestión */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Contenedor principal */
+.gestion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+/* Título */
+.gestion-title {
+    font-size: 2.5rem; /* Más grande */
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #1f2937; /* Gris oscuro */
+    text-align: center;
+}
+
+/* Botones */
+.gestion-buttons {
+    display: flex;
+    flex-direction: column; /* Columnas */
+    gap: 1.5rem; /* Espaciado entre botones */
+    width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+    max-width: 600px; /* Máximo ancho para el contenedor de botones */
+}
+
+.gestion-button {
+    display: block; /* Asegura que el botón ocupe todo el ancho disponible */
+    width: 100%; /* Todos los botones tendrán el mismo ancho */
+    padding: 1rem 1.5rem; /* Botones más grandes */
+    text-align: center;
+    font-size: 1.25rem; /* Texto más grande */
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    background-color: #548f6d; /* Verde oscuro */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.gestion-button:hover {
+    background-color: #b5e0c9; /* Verde claro */
+    color: #1f2937; /* Gris oscuro */
+}

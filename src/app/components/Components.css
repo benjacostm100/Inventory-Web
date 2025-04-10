@@ -1,0 +1,106 @@
+
+/* Components.css */
+
+/* Estilos del Navbar */
+.navbar {
+    background-color: #DCF9E9; /* Color de fondo verde claro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+  
+/* Contenedor con margen automático y relleno */
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px; /* 1rem = 16px */
+    padding-right: 16px; /* 1rem = 16px */
+}
+  
+/* Flexbox para alinear los elementos dentro del Navbar */
+.navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px; /* 10rem = 160px */
+}
+  
+/* Estilos para el logo */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-logo-icon {
+    height: 32px; /* 2rem = 32px */
+    width: 32px; /* 2rem = 32px */
+    color: #16a34a; /* Verde */
+}
+  
+.navbar-logo-text {
+    margin-left: 8px; /* 0.5rem = 8px */
+    font-size: 1.8rem; /* Reducido de 2rem a 1.8rem */
+    font-weight: 600;
+    color: #1f2937; /* Gris oscuro */
+}
+  
+/* Estilos para los links */
+.navbar-links {
+    display: flex;
+    gap: 32px; /* Reducido de 48px a 32px */
+}
+  
+.navbar-link {
+    display: flex;
+    align-items: center;
+    color: #4b5563; /* Gris */
+    transition: color 0.2s ease-in-out;
+}
+  
+.navbar-link:hover {
+    color: #16a34a; /* Verde al pasar el ratón */
+}
+  
+.navbar-link-icon {
+    height: 22px; /* Reducido de 25px a 22px */
+    width: 22px; /* Reducido de 25px a 22px */
+    margin-right: 4px; /* 0.25rem = 4px */
+}
+
+
+/* Footer Styles */
+
+/* Estilos del Footer */
+.footer {
+    background-color: #f3f4f6; /* Gris claro */
+    color: #4b5563; /* Gris oscuro */
+    padding-top: 32px; /* 2rem = 32px */
+    padding-bottom: 32px; /* 2rem = 32px */
+}
+
+/* Contenedor del Footer */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px; /* 1rem = 16px */
+    padding-right: 16px; /* 1rem = 16px */
+    text-align: center;
+}
+
+/* Estilo para el texto */
+.footer-text {
+    font-size: 1rem; /* Reducido de 1.2rem a 1rem */
+    font-weight: 400;
+    color: #4b5563; /* Gris oscuro */
+}
+
+.footer-text p {
+    margin-bottom: 8px; /* 0.5rem = 8px */
+}
+
+.footer-text a {
+    color: #16a34a; /* Verde */
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
